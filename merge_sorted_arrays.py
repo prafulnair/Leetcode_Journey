@@ -41,7 +41,8 @@ so we start merging at the end
 k points to the last 0, which we will use as the place where we can add the largest of the two elements from nums1 and nums2
 pointers for nums1 and nums2 - p and q respectively, points to its last element (non-zero element for nums1)
 
-we simply compare the last two numbers of both array, and place the larger one at kth index of nums1, then we decrement k and the 
+we simply compare the last two numbers of both array, and place the larger one at kth index of nums1, 
+then we decrement k and the 
 pointer who's number was bigger
 
 also in the end we check if there is any remaining element in nums 2 and put all that in nums 1 

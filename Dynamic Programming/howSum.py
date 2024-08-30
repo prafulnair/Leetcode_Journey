@@ -29,4 +29,4 @@ def howSum(targetSum, nums, memo=None):
             memo[targetSum] = res + [n]
             return res + [n]
         
-print(howSum(300,[7]))
+print(howSum(300,[2]))
